@@ -5,9 +5,11 @@ const ddb = new AWS.DynamoDB.DocumentClient();
 exports.handler = function (event, context, callback) {
     console.log("Define authChallenge")
 
+
+
     kinesis.describeStream({
-        StreamName: 'testcafe'
-    }).promise()
+  StreamName: 'testcafe'
+}).promise()
         .then(data => {
             // your logic goes here
             console.log(data)
