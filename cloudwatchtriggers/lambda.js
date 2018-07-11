@@ -3,7 +3,7 @@ const kinesis = new AWS.Kinesis();
 const ddb = new AWS.DynamoDB.DocumentClient();
 
 exports.handler = function (event, context, callback) {
-    console.log("Define authChallenge")
+    console.log("Daaaefine authChallenge")
 
 
 
